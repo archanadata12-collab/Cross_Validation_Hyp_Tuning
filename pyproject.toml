@@ -1,0 +1,14 @@
+[project]
+name = "amle-cross-validation-hyp-tuning"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "scikit-learn>=1.9.0",
+    "scipy>=1.16",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
